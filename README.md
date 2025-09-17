@@ -11,7 +11,12 @@ This is a *sample application* developed during the lectures of the  [**Web Engi
 
 ## Installation
 
-This is a Maven-based project. Simply download the code and open it in any Maven-enabled IDE such as Netbeans or Eclipse. Additionally, you may need to *configure the deploy settings*: the application is intended to be run on the **JavaEE 7** platform inside **Apache Tomcat version 9**. Refer to your IDE help files to perform this step. For example, in Apache Netbeans, you must enter these settings in Project properties > Run.
+This is a Maven-based project. Simply download the code and open it in any Maven-enabled IDE such as Netbeans or Eclipse. 
+
+The main branch contains the application version to be run on the **JakartaEE 10** platform inside the **Apache Tomcat 11** server. 
+Note that you may need to *configure the project deploy settings* in your IDE based on the chosen platform/server: refer to the IDE help files to perform this step. For example, in Apache Netbeans, you must enter these settings in Project properties > Run.
+
+The **JEE** branch contains the old application version designed to run on the **JavaEE 8** platform inside **Apache Tomcat 9**, and is no longer maintained or updated. 
 
 ---
 
